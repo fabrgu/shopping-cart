@@ -9,8 +9,7 @@ The Generic ecommerce web app displays a table where the user (shopper) can see 
 the vegetable to add to cart. The cart will display the number of total items, the total number per item, and the total price. 
 Once the item is in the cart, remove and add item buttons will appear underneath the item and users can add or remove (adding 
 or removing the item by 1) from the shopping cart. Additionally, an input will appear where the user can input a 
-positive integer number and change the item's quantity in the cart. The same input also has up and down arrows which the user can
-press to add or subtract the item's quantity by one.
+positive integer number and change the item's quantity in the cart. The same input also has up and down arrows which the user can press to add or subtract the item's quantity by one.
 
 #Files included
 
@@ -26,10 +25,11 @@ support.
 
 #Running the website
 To run the website you must have a localhost set up on your computer. The easiest way of setting up a localhost, and the 
-way I've developed the eccommerce website, was to download JetBrain's WebStorm IDE. Import the project folder to the IDE as
-a new project. Go to the index.html file. Either click the green run arrow button at the upper right of the page, or hover a bit 
-around the same area and browser icons will appear on the upper right corner. Click on a browser that you have installed on your 
+way I've developed the ecommerce website, was to download JetBrain's WebStorm IDE. Import the project folder to the IDE as
+a new project. Go to the index.html file. Either click the green run arrow button at the upper right of the page, or hover a bit
+around the same area and browser icons will appear on the upper right corner. Click on a browser that you have installed on your
 computer. 
 
-The code will also be stored in my github (repository: fabrgu/fabrgu.github.io) as an alternative way of accessing the code.
-As an additional next step - I hope to get the code hosted into gitpages.
+The code will also be stored in one of my public github repository (fabrgu/fabrgu.github.io) as an alternative way of accessing the code.
+
+The website can also be accessed via a public url at http://fabrgu.github.io/
