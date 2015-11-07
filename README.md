@@ -19,8 +19,8 @@ about the user's shopping and another js file for the helper methods that displa
 The helper methods also helps display up-to-date information about the user's shopping cart, which is kept in the shoppingCart js file.
 The index.html file is the landing page of the website and includes the style and basic html that help shape the page's look.
 
-Three third-party js and css files are included: one js file, and two css file for bootstrap (one normal and one min) and one js file for jQuery. 
-The two third-party bootstrap files were included to help style the webpage. The jQuery file was included to easily apply
+Third-party js and css files are included: several js and css files for bootstrap  and one js file for jQuery. 
+The third-party bootstrap files were included to help style the webpage. The jQuery file was included to easily apply
 some more advanced techniques in a less verbose manner. Bootstrap and jQuery were also brought in to have a bit of cross-browser
 support.
 
