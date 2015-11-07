@@ -1,0 +1,24 @@
+{
+  "ArrayO": [
+    {
+      "Name": "Lettuce",
+      "Price": "2.50",
+      "Description": "Nice, healthy, refreshing lettuce!"
+    },
+    {
+      "Name": "Carrot",
+      "Price": "1.50",
+      "Description": "Full of vitamins and minerals."
+    },
+    {
+      "Name": "Potato",
+      "Price": "3.00",
+      "Description": "A standard potato. Fry for some french fries."
+    },
+    {
+      "Name": "Cabbage",
+      "Price": "2.00",
+      "Description": "Pretty tasty."
+    }
+  ]
+}
