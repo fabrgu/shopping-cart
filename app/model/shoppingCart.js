@@ -15,6 +15,12 @@ var shoppingCart = (function(){
 
     function loadCart(){
         cart = JSON.parse(localStorage.getItem("shoppingCart"));
+        
+        /*The cart would somtimes appear as null on the website
+         when the page first loads and the loadCart method returned null. This is a workaround.*/
+        if (cart === null){
+            cart = [];
+        }
     }
 
     loadCart();
@@ -23,14 +29,6 @@ var shoppingCart = (function(){
     var pub = {};
 
     pub.addItemToCart = function(name, price, count){
-        
-        /*The cart would somtimes appear as null on the gitpages website
-        when the page loads and the method tries to access the private variable.
-        This is a workaround so no error is thrown*/
-        if (cart === null){
-            cart = [];
-        }
-        
         for(var i in cart){
             if (cart[i].name === name){
                 cart[i].count += count;
