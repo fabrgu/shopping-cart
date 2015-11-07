@@ -23,7 +23,6 @@ var shoppingCart = (function(){
     var pub = {};
 
     pub.addItemToCart = function(name, price, count){
-        console.log(cart);
         for(var i in cart){
             if (cart[i].name === name){
                 cart[i].count += count;
@@ -32,7 +31,6 @@ var shoppingCart = (function(){
             }
         }
         var item = new Item(name, price, count);
-        console.log(item);
         cart.push(item);
         saveCart();
     };
