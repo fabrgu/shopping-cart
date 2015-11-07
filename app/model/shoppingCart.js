@@ -2,8 +2,6 @@ var shoppingCart = (function(){
 
     //Private properties and methods
     var cart = [];
-    
-    console.log(cart);
 
     function Item(name, price, count){
         this.name = name;
@@ -25,6 +23,7 @@ var shoppingCart = (function(){
     var pub = {};
 
     pub.addItemToCart = function(name, price, count){
+        console.log(cart);
         for(var i in cart){
             if (cart[i].name === name){
                 cart[i].count += count;
