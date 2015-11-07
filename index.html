@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Generic Ecommerce Website</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="app/model/shoppingCart.js"></script>
+    <script type="text/javascript" src="app/viewModel/viewModelHelper.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            viewModelHelper.jsonTable("app/model/vegetable.json");
+            viewModelHelper.renderCart();
+        });
+    </script>
+</head>
+<body>
+
+    <!-- Nav Bar Content-->
+    <nav class="navbar navbar-inverse" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand">Generic Ecommerce Website</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+            <div class="alert alert-success" style="display: none">
+                <strong>Thank you for shopping!</strong> You have been checked out.
+            </div>
+
+            <div class="col-md-8">
+                <h1 class="page-header">
+                    Shop for Vegetables
+                </h1>
+
+               <div class="row">
+                   <div class="col-md-11 pull-right">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Price</th>
+                                <th>Description</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody id="a_listing">
+
+                        </tbody>
+                    </table>
+                   </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="well">
+                    <h3>Your Shopping Cart</h3>
+                        <div id="shopping_list">
+                            <ul class = "list-unstyled">
+                            </ul>
+                        </div>
+                    <div id="count_cart">
+                        <h5> Your total is: $<span id="total_amount"></span></h5>
+                        <h5 id="count_items_cart"> </h5>
+                        <button id="clear_cart" type="button" class="btn btn-primary btn-sm" onclick="viewModelHelper.removeAllClick()">Clear Cart</button>
+                    </div>
+
+                    &nbsp;
+
+                    <button id="complete_checkout" type="button" class="btn btn-primary btn-block" onclick="viewModelHelper.completeCheckout()">Complete Check Out</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
