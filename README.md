@@ -25,7 +25,7 @@ support.
 
 #Running the website
 To run the website you must have a localhost set up on your computer. The easiest way of setting up a localhost, and the 
-way I've developed the ecommerce website, was to download JetBrain's WebStorm IDE. Import the project folder to the IDE as
+way I've developed the ecommerce website, was to download JetBrain's WebStorm IDE. WebStorm is available free to students for one year and otherwise has a free 30 day trial. Import the project folder to the IDE as
 a new project. Go to the index.html file. Either click the green run arrow button at the upper right of the page, or hover a bit
 around the same area and browser icons will appear on the upper right corner. Click on a browser that you have installed on your
 computer. 
