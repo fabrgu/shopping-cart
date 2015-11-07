@@ -17,10 +17,8 @@ var viewModelHelper = (function(){
 
                     var table_html = "<tr>" + name_row + price_row + description_row + button_row + "</tr>";
                     $(table_html).appendTo('#a_listing');
-                    console.log("test");
                 });
             });
-
         },
 
         addToCartClick: function (item) {
@@ -28,7 +26,6 @@ var viewModelHelper = (function(){
             var itemPrice = $(item).attr('data-price');
             shoppingCart.addItemToCart(itemName, itemPrice, 1);
             viewModelHelper.renderCart();
-
         },
 
         //display up-to-date info about user's shopping cart
@@ -105,7 +102,6 @@ var viewModelHelper = (function(){
             shoppingCart.clearCart();
             viewModelHelper.renderCart();
         }
-
     }
 
 }());
