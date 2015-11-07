@@ -1,6 +1,6 @@
 # fabrgu.github.io
 
-#author: Fabiola Gutierrez
+#Author: Fabiola Gutierrez
 
 # Generic ecommerce website project
 
