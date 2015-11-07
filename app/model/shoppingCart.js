@@ -2,6 +2,8 @@ var shoppingCart = (function(){
 
     //Private properties and methods
     var cart = [];
+    
+    console.log('testing!!');
 
     function Item(name, price, count){
         this.name = name;
