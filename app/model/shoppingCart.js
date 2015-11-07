@@ -23,6 +23,14 @@ var shoppingCart = (function(){
     var pub = {};
 
     pub.addItemToCart = function(name, price, count){
+        
+        /*The cart would somtimes appear as null on the gitpages website
+        when the page loads and the method tries to access the private variable.
+        This is a workaround so no error is thrown*/
+        if (cart === null){
+            cart = [];
+        }
+        
         for(var i in cart){
             if (cart[i].name === name){
                 cart[i].count += count;
