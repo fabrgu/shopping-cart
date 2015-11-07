@@ -26,6 +26,7 @@ var viewModelHelper = (function(){
             var itemPrice = $(item).attr('data-price');
             shoppingCart.addItemToCart(itemName, itemPrice, 1);
             viewModelHelper.renderCart();
+            $('.alert').hide();
         },
 
         //display up-to-date info about user's shopping cart
