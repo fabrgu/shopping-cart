@@ -1,6 +1,6 @@
 # fabrgu.github.io
 
-#Author: Fabiola Gutierrez
+# Author: Fabiola Gutierrez
 
 # Generic ecommerce website project
 
@@ -23,7 +23,7 @@ The third-party bootstrap files were included to help style the webpage. The jQu
 some more advanced techniques in a less verbose manner. Bootstrap and jQuery were also brought in to have a bit of cross-browser
 support.
 
-#Running the Website
+# Running the Website
 To run the website you must have a localhost set up on your computer. The easiest way of setting up a localhost, and the 
 way I've developed the ecommerce website, was to download JetBrain's WebStorm IDE. WebStorm is available free to students for one year and otherwise has a free 30 day trial. Import the project folder to the IDE as
 a new project. Go to the index.html file. Either click the green run arrow button at the upper right of the page, or hover a bit
@@ -32,6 +32,4 @@ computer.
 
 The web page can also be run by simply clicking the index.html and opening in a firefox or safari browser. A chrome browser has extra security and will not permit the json file load without a localhost. The website may work in other browsers but I have not personally tested them out.
 
-The code will also be stored in one of my public github repository (fabrgu/fabrgu.github.io) as an alternative way of accessing the code.
-
-The website can also be accessed via a public url at http://fabrgu.github.io/
+The code will also be stored in one of my public github repository (fabrgu/shopping-cart) as an alternative way of accessing the code.
